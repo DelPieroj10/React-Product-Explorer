@@ -32,14 +32,14 @@ button {
   padding: 0.5em 1em;
   border-radius: 0.25em;
   border: none;
-  background-color: #61dafb;
   color: #000;
+  background-color: #646cff;
   cursor: pointer;
-  margin: 5px, 5px;
+  margin: 5px;
 }
 
 button:hover {
-  border-color: #646cff;
+  background-color: #61dafb;
 }
 button:focus,
 button:focus-visible {

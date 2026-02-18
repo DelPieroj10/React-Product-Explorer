@@ -1,0 +1,25 @@
+.skeleton {
+  animation: pulse 1.5s infinite;
+}
+
+.skeleton-img {
+  height: 150px;
+  background: #ddd;
+  margin-bottom: 10px;
+}
+
+.skeleton-text {
+  height: 15px;
+  background: #ddd;
+  margin-bottom: 8px;
+}
+
+.skeleton-text.short {
+  width: 60%;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}

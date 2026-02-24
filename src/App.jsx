@@ -33,15 +33,13 @@ export default function App() {
         setSortOrder={setSortOrder}
       />
 
-      {loading ? (
+      {loading? (
         <SkeletonGrid count={6}/>
       ) : (
         <ProductGrid products={products} />
       )}
 
       {error && <p>Error: {error}</p>}
-
-      <ProductGrid products={products} />
 
       <Pagination
         currentPage={currentPage}

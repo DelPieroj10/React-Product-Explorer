@@ -1,4 +1,4 @@
-## live Demo
+## Live Demo
 https://react-product-explorer.vercel.app/
 
 # React-Product-Explorer

@@ -1,3 +1,5 @@
+## live Demo
+https://react-product-explorer.vercel.app/
 
 # React-Product-Explorer
  **React** application that consumes an external product API, allowing us to display products and filter them by name, category, and price.
